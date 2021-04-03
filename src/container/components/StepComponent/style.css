@@ -1,0 +1,12 @@
+#step-wrap{
+    position: fixed;
+    top: 200px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    /*margin: auto;*/
+    width: 150px;
+    height: 500px;
+    /*background: aquamarine;*/
+    border-right:1px solid #F0F0F0;
+}

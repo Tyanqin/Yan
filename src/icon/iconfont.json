@@ -1,0 +1,72 @@
+{
+  "id": "2445795",
+  "name": "jdj-edu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9748095",
+      "name": "医疗",
+      "font_class": "yiliao",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "172197",
+      "name": "home",
+      "font_class": "zhangshangcaifuyemianshoujiban243",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "487023",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1013146",
+      "name": "老师",
+      "font_class": "jiaolian1",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "1177735",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "6119258",
+      "name": "心",
+      "font_class": "like-line",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "10156391",
+      "name": "个人",
+      "font_class": "geren",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "10257582",
+      "name": "劳动",
+      "font_class": "weibiaoti--",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "11982657",
+      "name": "Home, homepage, menu",
+      "font_class": "Homehomepagemenu",
+      "unicode": "e9ce",
+      "unicode_decimal": 59854
+    }
+  ]
+}

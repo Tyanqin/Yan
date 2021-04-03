@@ -1,0 +1,83 @@
+#new-books-wrap{
+    position: relative;
+    margin: 20px 10% 20px 10%;
+    width: 80%;
+    height: 350px;
+    /*background: blue;*/
+
+}
+
+#new-books-wrap >.news-title{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    line-height: 60px;
+    /*background: black;*/
+    font-size: 24px !important;
+    color:#000000 !important;
+    font-weight: lighter !important;
+    /*background: #FFFFFF;*/
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji !important;
+
+}
+
+#new-books-wrap >div{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 33%;
+    height: 290px;
+    /*background: #F2F8FE;*/
+    border-radius: 5%;
+}
+
+#new-books-wrap >.new-box{
+    position: absolute;
+    top:60px;
+    height: 290px;
+    width: 100%;
+    /*background: #FFFFFF;*/
+}
+#new-books-wrap >.new-box>div{
+    position: absolute;
+    top: 0;
+    width: 19.2%;
+    height: 100%;
+    background: #F2F3F7;
+}
+#new-books-wrap >.new-box>div>a>img{
+    transition: all  15s  ease-in;
+    width: 100%;
+    /*height: 70%;*/
+    height: 100%;
+}
+#new-books-wrap >.new-box>div>a>.img-title{
+    width: 100%;
+    line-height: 87px;
+    text-align: center;
+    /*background: #F2F8FE;*/
+    background: rgba(209,95,238,.2);
+}
+
+#new-books-wrap >.new-box>div:hover{
+    transform:translateY(-3px);
+    box-shadow: 5px 5px 10px #CFCFCF;
+}
+
+#new-books-wrap >.new-box >div:nth-child(1){
+    left:0;
+}
+#new-books-wrap >.new-box >div:nth-child(2){
+    left:20.2%;
+}
+#new-books-wrap >.new-box >div:nth-child(3){
+    left:40.4%;
+}
+#new-books-wrap >.new-box >div:nth-child(4){
+    left:60.6%;
+}
+#new-books-wrap >.new-box >div:nth-child(5){
+    left:80.8%;
+}

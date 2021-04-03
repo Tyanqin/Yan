@@ -1,0 +1,26 @@
+#footer-wrap{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-box{
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width: 80%;
+    height: 100px;
+    /*background: aqua;*/
+}
+
+#footer-wrap>.footer-box>p{
+    margin-bottom: 10px;
+    font-size: 14px !important;
+    color:#FFFFFF !important;
+}
