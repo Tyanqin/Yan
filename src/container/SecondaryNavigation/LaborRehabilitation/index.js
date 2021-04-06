@@ -1,16 +1,21 @@
 import React from 'react'
 import {connect} from "react-redux";
-import PubNavComponent from '../../components/PubNavComponent/index'
+import LabComponent from './component/LabComponent'
 import {Menu} from "antd";
+import PrimaryNavigation from "../../components/PrimaryNavigation";
+import PubPageComponent from "../PhysicalRehabilitationTheoryGuidance/component/PhyComponent";
 
 export default connect(state=>({}),{})(
    class LaborRehabilitation extends React.Component{
        render() {
            return(
                <>
-                  <PubNavComponent
-                    titles = {["安全生产教育知识","安全生产教育视频","康复劳动流程",,"劳动技能培训"]}
-                  />
+                   <PrimaryNavigation
+                       background = {"#F2F8FE"}
+                       boxShadow={"5px 5px 5px #CFCFCF"}
+                       height = {""}
+                   />
+                   <LabComponent/>
                </>
            )
        }

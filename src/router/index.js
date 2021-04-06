@@ -1,5 +1,5 @@
 import React,{Fragment} from 'react'
-import {Route, Switch,NavLink } from 'react-router-dom'
+import {Route, Switch } from 'react-router-dom'
 import HomeContainer from '../container/HomeContainer/index'
 import PhysicalRehabilitationTheoryGuidance from '../container/SecondaryNavigation/PhysicalRehabilitationTheoryGuidance'
 import PsychologicalRehabilitation from '../container/SecondaryNavigation/PsychologicalRehabilitation'
@@ -23,7 +23,7 @@ export const CombineRoutes = () => (
             <Route exact path = "/drugMentor" component={DrugMentor}/>
             {/*劳动康复*/}
             <Route exact path = "/laborRehabilitation" component={LaborRehabilitation}/>
-            {/*劳动康复*/}
+            {/*医疗康复*/}
             <Route exact path = "/medicalRehabilitation" component={MedicalRehabilitation}/>
             {/*认知康复*/}
             <Route exact path = "/cognitiveRehabilitation" component={CognitiveRehabilitation}/>

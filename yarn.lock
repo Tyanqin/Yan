@@ -1722,6 +1722,31 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@reach/auto-id@^0.7.0", "@reach/auto-id@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@reach/auto-id/download/@reach/auto-id-0.7.4.tgz#c20bf6db87ef2f34b1bfb4bf450d675524a368c1"
+  integrity sha1-wgv224fvLzSxv7S/RQ1nVSSjaME=
+
+"@reach/slider@^0.7.0":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@reach/slider/download/@reach/slider-0.7.4.tgz#5dd18f795b261e75117da14fea4451684ef96e85"
+  integrity sha1-XdGPeVsmHnURfaFP6kRRaE75boU=
+  dependencies:
+    "@reach/auto-id" "^0.7.4"
+    "@reach/utils" "^0.7.4"
+    prop-types "^15.7.2"
+    warning "^4.0.3"
+
+"@reach/utils@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@reach/utils/download/@reach/utils-0.7.4.tgz#cdd0cff8c57445ce9c2b11204e6a62868f1093a1"
+  integrity sha1-zdDP+MV0Rc6cKxEgTmpiho8Qk6E=
+
+"@reach/visually-hidden@^0.7.0":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@reach/visually-hidden/download/@reach/visually-hidden-0.7.4.tgz#5d2b142529e5ed64df35ed31e95dfff1cf22b2fb"
+  integrity sha1-XSsUJSnl7WTfNe0x6V3/8c8isvs=
+
 "@rollup/plugin-node-resolve@^7.1.1":
   version "7.1.3"
   resolved "https://registry.npm.taobao.org/@rollup/plugin-node-resolve/download/@rollup/plugin-node-resolve-7.1.3.tgz#80de384edfbd7bfc9101164910f86078151a3eca"
@@ -2415,6 +2440,16 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@xstate/fsm@^1.1.0":
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/@xstate/fsm/download/@xstate/fsm-1.6.0.tgz#589cefcef426d5bf3d654edbca89e84e3b637c5f"
+  integrity sha1-WJzvzvQm1b89ZU7byonoTjtjfF8=
+
+"@xstate/react@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.npm.taobao.org/@xstate/react/download/@xstate/react-0.8.1.tgz#df200547cca24c909572b7aef1ddab8bca3a0603"
+  integrity sha1-3yAFR8yiTJCVcreu8d2ri8o6BgM=
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -2871,6 +2906,17 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
+
+audio-react@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npm.taobao.org/audio-react/download/audio-react-0.0.1.tgz#dc1cd4fe88f0e88626b82af8bad01b512f56183f"
+  integrity sha1-3BzU/ojw6IYmuCr4utAbUS9WGD8=
+  dependencies:
+    "@reach/auto-id" "^0.7.0"
+    "@reach/slider" "^0.7.0"
+    "@reach/visually-hidden" "^0.7.0"
+    "@xstate/fsm" "^1.1.0"
+    "@xstate/react" "^0.8.1"
 
 autoprefixer@^9.6.1:
   version "9.7.4"
@@ -10075,6 +10121,13 @@ react-app-polyfill@^2.0.0:
     raf "^3.4.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
+
+react-audio-player@^0.16.1:
+  version "0.16.1"
+  resolved "https://registry.npm.taobao.org/react-audio-player/download/react-audio-player-0.16.1.tgz#f6162dfb1f1b6cf0ab6cb609090d5a761f0fa69d"
+  integrity sha1-9hYt+x8bbPCrbLYJCQ1adh8Ppp0=
+  dependencies:
+    prop-types "^15.7.2"
 
 react-circle@^1.1.1:
   version "1.1.1"

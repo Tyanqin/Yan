@@ -1,16 +1,21 @@
 import React from 'react'
 import {connect} from "react-redux";
-import PubNavComponent from '../../components/PubNavComponent/index'
+import DrugComponent from './component/DrugComponent'
 import {Menu} from "antd";
+import PrimaryNavigation from "../../components/PrimaryNavigation";
+
 
 export default connect(state=>({}),{})(
    class DrugMentor extends React.Component{
        render() {
            return(
                <>
-                  <PubNavComponent
-                    titles = {["戒毒导师活动介绍","戒毒导师风采","与戒毒导师交流"]}
-                  />
+                   <PrimaryNavigation
+                       background = {"#F2F8FE"}
+                       boxShadow={"5px 5px 5px #CFCFCF"}
+                       height = {""}
+                   />
+                   <DrugComponent/>
                </>
            )
        }

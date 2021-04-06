@@ -1,16 +1,20 @@
 import React from 'react'
 import {connect} from "react-redux";
-import PubNavComponent from '../../components/PubNavComponent/index'
-
+import RehComponent from './component/RehComponent'
+import PrimaryNavigation from "../../components/PrimaryNavigation";
 
 export default connect(state=>({}),{})(
    class RehabilitationOfSocialFunction extends React.Component{
        render() {
            return(
                <>
-                  <PubNavComponent
-                    titles = {["社会适应性考验","社会功能训练指导","社会康复知识指导","回访情况",,"社会帮教"]}
-                  />
+
+                   <PrimaryNavigation
+                       background = {"#F2F8FE"}
+                       boxShadow={"5px 5px 5px #CFCFCF"}
+                       height = {""}
+                   />
+                   <RehComponent/>
                </>
            )
        }

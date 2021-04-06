@@ -10,7 +10,8 @@
     background: #000;
     padding: 0 16% 0 15%;
     opacity: 0.5;
-    display: none;
+    z-index: 99998;
+    /*display: none;*/
 }
 
 #video-component-wrap{
@@ -20,28 +21,87 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 800px;
-    height: 550px;
+    /*width: 800px;*/
+    /*height: 550px;*/
+    width: 900px;
+    height:650px;
+    border:none;
     padding-top: 51px;
     box-sizing: border-box;
     background: #BFEFFF;
-    display: none;
+    z-index: 99999;
+    /*display: none;*/
 }
-#video-component-wrap>div:nth-child(1),#video-component-wrap>div:nth-child(2){
+#video-component-wrap>div:nth-child(1),#video-component-wrap>div:nth-child(2),#video-component-wrap>div:nth-child(3){
     position: absolute;
     top: 0;
     left:0;
     width: 500px;
     height: 51px;
-    background: #D15FEE;
+    /*background: #D15FEE;*/
     padding-top: 20px;
 
 }
 #video-component-wrap>div:nth-child(2){
-    width: 50px;
-    height: 51px;
-    left:750px;
+    width: 0;
+    height: 0;
+    left:870px;
+    top:-5px;
     text-align: center;
     /*font-size: 50px !important;*/
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+}
+#video-component-wrap>div:nth-child(2) > button{
+    border:none;
+    background:none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+}
+
+#video-component-wrap>div:nth-child(2) > button >span{
+    font-size: 12px!important;
+    cursor: pointer;
+}
+
+#video-component-wrap>div:nth-child(3){
+    width: 40px;
+    line-height: 0px;
+    left:830px;
+    text-align: center;
+    font-size: 20px !important;
+    cursor: pointer;
+}
+
+.site-drawer-render-in-current-wrapper {
+    position: relative;
+    height: 600px;
+    width: 900px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background: #000;
+}
+
+.video-component-options{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    background: #D15FEE;
+}
+
+.video-react .video-react-big-play-button{
+    /*display:none;*/
+    top:250px;
+    left:430px;
+    width: 50px;
+    height: 50px;
+    /*border:1px solid #BFEFFF;*/
+}
+
+.video-react .video-react-big-play-button:before{
+    top:-7px;
 }
